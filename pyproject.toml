@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "crawlers"
+version = "1.0.0"
+description = "Crawl Google search results while protecting your privacy."
+authors = ["directlycrazy <hello@inspare.cc>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.9"
+numpy = "^1.22.2"
+Flask = "^2.1.2"
+requests = "^2.27.1"
+pandas = "^1.4.2"
+requests-html = "^0.10.0"
+beautifulsoup4 = "^4.11.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
